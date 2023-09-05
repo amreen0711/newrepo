@@ -1,0 +1,216 @@
+    1  ?
+    2  ls
+    3  ping 172.20.25.9
+    4  passwd asma101
+    5  help
+    6  passwd ?
+    7  passwd help
+    8  passwd
+    9  wget www.github.com
+   10  sudo dnf install git-all
+   11  su -
+   12  cd ~/Desktop
+   13  ls
+   14  ls -l
+   15  mkdir myproject
+   16  cd myproject/
+   17  git init 
+   18  ls -la
+   19  cd Desktop/
+   20  cd myproject/
+   21  ls -la
+   22  rm .git/
+   23  git init cs131
+   24  cd ..
+   25  rm myproject/
+   26  cd myproject/cs131/
+   27  mkdir Worksheet1
+   28  rm Worksheet1/
+   29  git status
+   30  touch Worksheet1.txt
+   31  git status
+   32  cd ..
+   33  CD ..
+   34  cd ..
+   35  ls -l
+   36  cd myproject/
+   37  ls -la
+   38  mv cs131/ /
+   39  cd ..
+   40  ?
+   41  pwd
+   42  cd myproject/
+   43  mv cs131/ /home
+   44  cd ..
+   45  rm -myproject
+   46  rm -fr myproject/
+   47  ls -l
+   48  git init cs131
+   49  touch Worksheet1.txt
+   50  cd cs131/
+   51  status git
+   52  git status 
+   53  ls -la
+   54  cd ..
+   55  ls -l
+   56  rm Worksheet1.txt 
+   57  cd cs131/
+   58  touch Worksheet1.txt
+   59  git status 
+   60  cd ..
+   61  ls -la
+   62  cd cs131/
+   63  ls -l
+   64  rm Worksheet1.txt 
+   65  mkdir Worksheet1
+   66  cd ..
+   67  ls -la
+   68  cd cs131/
+   69  ls -la
+   70  cd ..
+   71  history 
+   72  history > cmd.log
+   73  ls -l
+   74  cat cmd.log
+   75  ls -la
+   76  cd cs131/
+   77  ls -la
+   78  git add cmd.log
+   79  cd ..
+   80  mv cmd.log ./cs131/
+   81  ls -la
+   82  cd cs131/
+   83  ls -la
+   84  git add cmd.log Worksheet1/
+   85  ls
+   86  git status
+   87  git add .
+   88  git commit -m "cmd.log"
+   89  git status
+   90  ls -l
+   91  git status
+   92  git add .
+   93  ls -l
+   94  git commit -m "cmd.log"
+   95  git config --global user.email "amreen0711@gmail.com"
+   96   git config --global user.name "amreen0711"
+   97  git commit -m "cmd.log"
+   98  git push origin main
+   99  git status
+  100  pwd
+  101  cd /home/amreenf23/
+  102  ls -l
+  103  cd ..
+  104  ls -l
+  105  ls -la
+  106  find - name cs131
+  107  pwd
+  108  ls -la
+  109  ls -la
+  110  cd cs131/
+  111  ls -la
+  112  git remote add origin https://github.com/amreen0711/project.git
+  113  git branch -M main
+  114  git push -u origin main
+  115  git status
+  116  ls -la
+  117  git add .
+  118  git status
+  119  git commit -m "This is my first commit!"
+  120  git branch 
+  121  my-new-branch
+  122  git remote add origin https://github.com/amreen0711/project.git
+  123  git branch -M main
+  124  git push -u origin main
+  125  git remote add origin https://github.com/amreen0711/project.git
+  126  git push -u origin master
+  127  git branch 
+  128  git status
+  129  git remote add origin https://github.com/amreen0711/project.git
+  130  git branch -M main
+  131  git push -u origin main
+  132  git remote add origin https://github.com/amreen0711/test.git
+  133  git remote add origin https://github.com/amreen0711/test1.git
+  134  git branch -M main
+  135  git push -u origin main
+  136  ls -la
+  137  cd cs131/
+  138  ls -la
+  139  history ?
+  140  history help
+  141  history 
+  142  help history 
+  143  ls -la
+  144  cat cmd.log 
+  145  wget www.github.com
+  146  cd ~/Desktop
+  147  pwd
+  148  git clone git@github.com:amreen0711/project.git
+  149  mkdir project1
+  150  ls
+  151  pwd
+  152  mkdir Desktop
+  153  ls -
+  154  ls -l
+  155  cd Desktop
+  156  pwd
+  157  git config --global user.email "youremail"
+  158  git config --global user.email "amreen0711@gmail.com"
+  159  git config --global user.name "amreen0711"
+  160  mkdir Worksheet1
+  161  pwd
+  162  cd Worksheet1
+  163  cd ..
+  164  ls -l
+  165  rm Worksheet1/
+  166  cd Worksheet1/
+  167  ls -l
+  168  cd ..
+  169  mkdir project
+  170  cd project/
+  171  git init
+  172  touch amreen.text
+  173  rm amreen.text
+  174  ls -l
+  175  touch amreen.txt
+  176  git status
+  177  git add amreen.txt
+  178  git status
+  179  git commit -m "This is my first commit"
+  180  git status
+  181  git checkout -b first
+  182  _
+  183  git checkout -b firstbranch
+  184  git branch 
+  185  ls -l
+  186  ls -al
+  187  pwd
+  188  ls
+  189  cd project1/
+  190  ls -l
+  191  ls -al
+  192  cd ..
+  193  git status 
+  194  cd project1/
+  195  ls 
+  196  ls -a
+  197  ls -al
+  198  cd ..
+  199  cd Desktop/
+  200  ls 
+  201  cd project/
+  202  ls -l
+  203  cd newrepo/
+  204  git status 
+  205  git push -u origin main
+  206  ls 
+  207  cat amreen.txt 
+  208  nano amreen.txt 
+  209  cat amreen.txt
+  210  ls 
+  211  rm -rf amreen.txt:wq!
+  212  ls
+  213  vim amreen.txt 
+  214  cat amreen.txt 
+  215  git status 
+  216  history > amreen.txt 
